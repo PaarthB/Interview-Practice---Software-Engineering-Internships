@@ -32,7 +32,7 @@ void main(char argc, char* argv[])
 {
 	int popular;
 	char *arr[] = [1,2,5,5,5,5,7,7,8,8,8,8,8,8];
-	popular = getPopularElement(argv);
+	popular = getPopularElement(argv+1);
 	printf("\nMost frequent element: %d", popular);
 	popular = getPopularElement(arr);
 	printf("\nMost frequent element: %d", popular);
