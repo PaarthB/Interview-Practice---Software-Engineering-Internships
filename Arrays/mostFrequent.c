@@ -31,9 +31,10 @@ int getPopularElement(char *a[])
 void main(char argc, char* argv[])
 {
 	int popular;
+	char *arr[] = [1,2,5,5,5,5,7,7,8,8,8,8,8,8];
 	popular = getPopularElement(argv);
 	printf("\nMost frequent element: %d", popular);
-	popular = getPopularElement([1,2,,5,5,5,5,7,7,8,8,8,8,8,8]);
+	popular = getPopularElement(arr);
 	printf("\nMost frequent element: %d", popular);
 	
 }
