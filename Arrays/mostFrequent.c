@@ -3,7 +3,7 @@
 #include <unistd.h>
 #include <stdlib.h>
 #include <stdbool.h>
-
+//Gives the element in the list which is occurs the most times.
 int getPopularElement(char *a[])
 {
   int count = 1, tempCount;
@@ -33,4 +33,7 @@ void main(char argc, char* argv[])
 	int popular;
 	popular = getPopularElement(argv);
 	printf("\nMost frequent element: %d", popular);
+	popular = getPopularElement([1,2,,5,5,5,5,7,7,8,8,8,8,8,8]);
+	printf("\nMost frequent element: %d", popular);
+	
 }
