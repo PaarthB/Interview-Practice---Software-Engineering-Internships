@@ -1,0 +1,1 @@
+String type questions for Software Engineering Internships
