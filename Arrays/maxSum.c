@@ -1,14 +1,11 @@
 # Author = Paarth Bhasin
 
-
 #include <stdio.h>
 #include <string.h>
 #include <unistd.h>
 #include <stdlib.h>
 #include <stdbool.h>
 #include <sys/time.h>
-
-
 
 void find_max_sum_interval(char *a_list){
     int max = 0, min = 0;
@@ -33,34 +30,34 @@ void find_max_sum_interval(char *a_list){
                     a = a_list[j];
                     max = j;
                     min = j;
-				}
+				
+		}
                 else{
-					count = 0;
-					for (int k=min; k<=max; k++){
-						a[count] = a_list[k];
-						max = j;
-						min = i;
-						count++;
-					
-					} 
-				}
+			count = 0;
+			for (int k=min; k<=max; k++){
+				a[count] = a_list[k];
+				max = j;
+				min = i;
+				count++;
+			} 
+		}
                 summed = true;
-			}
+	    }
             if summed == false && a_list[j] > sum_max{
                 a = a_list[j];
                 sum_max = a_list[j];
                 max = j;
                 min = j;
-			}
+	    }
             else if summed == False
                 a = a_list[0];
-		}
-		count = 0;
-		for (k=min; k<=max; k++){
-			a[count] = a_list[k];
-			count++;
-		}
 	}
+        count = 0;
+	for (k=min; k<=max; k++){
+	    a[count] = a_list[k];
+	    count++;
+	}
+    }
 
     printf("Maximum Sum: %d", sum_max);
     printf("Sliced List: %s", a);
@@ -69,7 +66,7 @@ void find_max_sum_interval(char *a_list){
 }
 
 int main(){
-	int array[4] = {1, 2, 3, 4};
+	int *array[] = {1, 2, 3, 4};
 	find_max_sum_interval(array);
 	return 0;
 }
