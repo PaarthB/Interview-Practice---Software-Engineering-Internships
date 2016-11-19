@@ -1,31 +1,5 @@
-__author__ = 'Paarth Bhasin'
+# Author = Paarth Bhasin
 
-'''
-Function: find_max_sum_interval(a_list):
-
-    Preconditions: a_list contains only numbers
-    Postconditions: We get the interval in a_list which has the maximum sum.
-
-    TEST CASES:
-        VALID TEST CASES: a_list is a list which contains only integers
-            Input:
-                [-1,-2,3,-14]
-
-            Output:
-                Maximum Sum: 3
-                Sliced List: 3
-                Start: 2
-                End: 2
-        INVALID TEST CASES: a_list doesn't contain only integers
-                Input:
-                    ['b',1,2,'c']
-
-                Output:
-                    unsupported operand type(s) for +=: 'int' and 'str'
-
-    Best Case Complexity: O(N)
-    Worst Case Complexity: O(N^2)
-'''
 
 #include <stdio.h>
 #include <string.h>
