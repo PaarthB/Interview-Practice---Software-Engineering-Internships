@@ -12,6 +12,8 @@ void areAnagrams1(char *str1, char *str2){
 
 void areAnagrams2(char *str1, char *str2){
 	# Using the method of comparing frequency
+	char *array1;
+	char *array2;
 	array1 = (char *)malloc(sizeof(char)*256);  // allocate 256 chars
 	array2 = (char *)malloc(sizeof(char)*256);  // allocate 256 chars
 	
