@@ -15,10 +15,12 @@ void areAnagrams2(char *str1, char *str2){
 	
 }
 
+/**
 void areAnagrams3(char *str1, char *str2){
 	# Using the method of hash map.
 	
 }
+**/
 
 int main(int argc, char* argv[]){
 	
