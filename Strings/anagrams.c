@@ -68,21 +68,28 @@ int main(int argc, char* argv[]){
 		printf("Too few or too many strings. Enter only 2 strings followed by the choice of algorithm (1 or 2)");
 	}
 	
-	if (choice == 1)
-	    result = areAnagrams1(argv[1], argv[2]);
+	switch(choice){
+	    case '1':
+		result = areAnagrams1(argv[1], argv[2]);
+		break;
+	    case '2':
+		result = argeAnagrams2(argv[1], argv[2]);
+		break;
+	    default:
+		printf("Incorrect choice of algorithm. Please enter 1 or 2");
+		return 1;
+	    	break;
 	
-	else if (choice == 2)
-	    result = argeAnagrams2(argv[1], argv[2]);
+	}
+	switch (result){
+	    case '0':
+		printf("%s and %s are anagrams", argv[1], argv[2]);
+		break;
+	    case '1':
+		printf("%s and %s are not anagrams", argv[1], argv[2]);
+		break;
 	
-	else
-	    printf("Incorrect choice of algorithm. Please enter 1 or 2");
-	    return 1; // Error
-	
-	if (choice == 0)
-	    printf("%s and %s are anagrams", argv[1], argv[2]);
-	
-	else if (choice == 1)
-	    printf("%s and %s are not anagrams", argv[1], argv[2]);
+	}
 	
 	return 0;
 }
