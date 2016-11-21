@@ -73,7 +73,7 @@ int main(int argc, char* argv[]){
 		result = areAnagrams1(argv[1], argv[2]);
 		break;
 	    case '2':
-		result = argeAnagrams2(argv[1], argv[2]);
+		result = areAnagrams2(argv[1], argv[2]);
 		break;
 	    default:
 		printf("Incorrect choice of algorithm. Please enter 1 or 2");
