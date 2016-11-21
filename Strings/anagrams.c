@@ -24,6 +24,8 @@ int areAnagrams2(char *str1, char *str2){
 	    arr[i] = 0;
 	}
 	
+	// Incrementing the place in arr which corresponds to ASCII code of char in string
+	// for characters encountered in str1. Decrementing for characters encountered in str2.
 	for (i = 0, int j=0; i < len1, j < len2; i++, j++){
 	    arr[atoi(str1[i])] += 1;
 	    arr[atoi(str2[j])] -= 1;
