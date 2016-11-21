@@ -54,6 +54,35 @@ void areAnagrams3(char *str1, char *str2){
 
 int main(int argc, char* argv[]){
 	
+	int choice, result;
+	printf("\nThis program determines whether two strings are anagrams or not.\n");
+    	printf("\nUsage: 'str1 str2 choice\n");
+    	printf("\nWhere str1 and str2 are the two strings being tested for being anagrams and choice is the type of algorithm used (1 or 2).\n");
+	bool valid=false;
+	
+	while (!valid){
+	     if (argc == 3)
+		valid = true;
+		choice = argv[3];
+	     else
+		printf("Too few or too many strings. Enter only 2 strings followed by the choice of algorithm (1 or 2)");
+	}
+	
+	if (choice == 1)
+	    result = areAnagrams1(argv[1], argv[2]);
+	
+	else if (choice == 2)
+	    result = argeAnagrams2(argv[1], argv[2]);
+	
+	else
+	    printf("Incorrect choice of algorithm. Please enter 1 or 2");
+	    return 1; // Error
+	
+	if (choice == 0)
+	    printf("%s and %s are anagrams", argv[1], argv[2]);
+	
+	else if (choice == 1)
+	    printf("%s and %s are not anagrams", argv[1], argv[2]);
 	
 	return 0;
 }
