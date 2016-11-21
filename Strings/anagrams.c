@@ -31,13 +31,17 @@ int areAnagrams2(char *str1, char *str2){
 	    arr[atoi(str2[j])] -= 1;
 	}
 	
+	// If any of the places in ASCII conversion of chars in str1 or str2 are not 0, that means 
+	// the frequency is not the same in the two strings which implies that the two strings are 
+	// not anagrams. Hence returning 1 (failure/error).
 	for (i = 0; i < len1; i++){
-	    if (arr[atoi(str[i])] != 0){
+	    if (arr[atoi(str1[i])] != 0){
 		free(arr);
 	        return 1;
 	    }
 	}
 	free(arr);
+	// If we reach here means the two strings are anagrams. Hence we return 0 (success).
 	return 0;
 }
 
