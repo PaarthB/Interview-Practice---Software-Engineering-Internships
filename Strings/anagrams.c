@@ -5,6 +5,7 @@
 #include <stdbool.h>
 #include <sys/time.h>
 
+// Time Complexity: O(NlogN), Space complexity = 0
 void areAnagrams1(char *str1, char *str2){
 	// Using the method of sorting
 	size_t len1 = strlen(str1);
@@ -21,7 +22,7 @@ void areAnagrams1(char *str1, char *str2){
 		 return 1;
 	}
 }
-
+// Time Complexity: O(N), Space Complexity = O(256) = O(Constant) = O(1)
 int areAnagrams2(char *str1, char *str2){
 	// Using the method of comparing frequency
 	size_t len1 = strlen(str1);
@@ -58,9 +59,14 @@ int areAnagrams2(char *str1, char *str2){
 }
 
 /**
-void areAnagrams3(char *str1, char *str2){
-	// Using the method of hash map.
+char* QuickSort(char *str1, char *str2){
+	// Quicksort implementation in C.
 	
+}
+
+int partition(char *str1){
+	// Partition function for implementing QuickSort.
+
 }
 **/
 
