@@ -7,7 +7,19 @@
 
 void areAnagrams1(char *str1, char *str2){
 	// Using the method of sorting
+	size_t len1 = strlen(str1);
+	size_t len2 = strlen(str2);
 	
+	if(len1 != len2)
+	    return 1;
+	else{
+	    str1 = QuickSort(str1);
+	    str2 = QuickSort(str2);
+	    if(strcmp(str1, str2)){
+		 return 0;
+	    else
+		 return 1;
+	}
 }
 
 int areAnagrams2(char *str1, char *str2){
@@ -15,7 +27,7 @@ int areAnagrams2(char *str1, char *str2){
 	size_t len1 = strlen(str1);
 	size_t len2 = strlen(str2);
 	
-	if(len1 != len2){
+	if(len1 != len2)
 	    return 1;
 	char *arr;
 	arr = (char *)malloc(sizeof(char)*256);  // allocate 256 chars
