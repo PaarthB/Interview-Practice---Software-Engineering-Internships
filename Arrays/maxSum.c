@@ -1,4 +1,4 @@
-# Author = Paarth Bhasin
+// Author = Paarth Bhasin
 
 #include <stdio.h>
 #include <string.h>
@@ -7,12 +7,12 @@
 #include <stdbool.h>
 #include <sys/time.h>
 
-void find_max_sum_interval(char *a_list){
+void find_max_sum_interval(int *a_list){
     int max = 0, min = 0;
     sum_max = a_list[0];
     n = sizeof(a_list);
-	int count = 0;
-	# List containing sliced list.
+    int count = 0;
+    // List containing sliced list.
     char *a;
     bool summed=false;
 
@@ -24,7 +24,7 @@ void find_max_sum_interval(char *a_list){
             sum += a_list[j];
             if sum > sum_max{
                 sum_max = sum;
-                # Meaning there are negative numbers prior to a_list[j] which should be neglected.
+                // Meaning there are negative numbers prior to a_list[j] which should be neglected.
                 if a_list[j] > sum_max{
                     sum_max = a_list[j];
                     a = a_list[j];
