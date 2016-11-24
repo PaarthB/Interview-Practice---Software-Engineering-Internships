@@ -14,8 +14,8 @@ void areAnagrams1(char *str1, char *str2){
 	if(len1 != len2)
 	    return 1;
 	else{
-	    str1 = QuickSort(str1);
-	    str2 = QuickSort(str2);
+	    QuickSort(str1, 0, len1-1);
+	    QuickSort(str2, 0, len2-1);
 	    if(strcmp(str1, str2)){
 		 return 0;
 	    else
@@ -59,7 +59,13 @@ int areAnagrams2(char *str1, char *str2){
 }
 
 /**
-char* QuickSort(char *str1, char *str2){
+char* QuickSort(char *str1, int from, int to){
+	int index;
+	if (from < to){
+	index = partition(str1, from, to);
+	QuickSort(str1, from, index-1);
+	QuickSort(str1, index+1, to);
+	}
 	// Quicksort implementation in C.
 	
 }
