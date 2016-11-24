@@ -58,7 +58,7 @@ int areAnagrams2(char *str1, char *str2){
 	return 0;
 }
 
-
+// Quicksort implementation in C.
 void QuickSort(char *str1, int from, int to){
 	int index;
 	if (from < to){
@@ -66,13 +66,24 @@ void QuickSort(char *str1, int from, int to){
 	QuickSort(str1, from, index-1);
 	QuickSort(str1, index+1, to);
 	}
-	// Quicksort implementation in C.
+	
 	
 }
-
-int partition(char *str1){
-	// Partition function for implementing QuickSort.
-
+	
+// Partition function for implementing QuickSort.
+int partition(char *str1, int p, int r){
+	int x = str1[p];
+	int i = p-1;
+	for (int j = p; j < r; j++){
+	    if (str1[j] <= x){
+	    	i += 1;
+		swap(str, i, j);
+	    }
+		
+	}
+	
+	swap(str, i+1, r);
+	return i+1;
 }
 
 
