@@ -58,8 +58,8 @@ int areAnagrams2(char *str1, char *str2){
 	return 0;
 }
 
-/**
-char* QuickSort(char *str1, int from, int to){
+
+void QuickSort(char *str1, int from, int to){
 	int index;
 	if (from < to){
 	index = partition(str1, from, to);
@@ -74,7 +74,7 @@ int partition(char *str1){
 	// Partition function for implementing QuickSort.
 
 }
-**/
+
 
 int main(int argc, char* argv[]){
 	
