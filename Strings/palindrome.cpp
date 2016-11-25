@@ -1,11 +1,10 @@
 /*
-Program No  : 2
 Developed By: Paarth Bhasin
 Date        : 01-May-2013
 */
 
 
-PROGRAM:
+// PROGRAM:
 
 #include<iostream.h>
 #include<conio.h>
