@@ -3,7 +3,7 @@
 #include <unistd.h>
 #include <stdlib.h>
 #include <stdbool.h>
-//Gives the element in the list which is occurs the most times.
+//Gives the element in the list which occurs the most times.
 int getPopularElement(char *a[])
 {
   int count = 1, tempCount;
