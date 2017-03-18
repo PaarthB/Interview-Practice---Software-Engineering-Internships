@@ -1,0 +1,1 @@
+General type programming and problem solving questions for Software Engineering internships.
