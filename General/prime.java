@@ -1,3 +1,7 @@
+/**
+Finds all the prime numbers before a positive integer, which is input from the user.
+Based on the Sieve of Eratosthenes concept of finding prime numbers
+**/
 public class PrimeDP {
 
  int primes[];
