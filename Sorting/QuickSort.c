@@ -24,7 +24,7 @@ int partition(char *str1, int p, int r){
 	for (int j = p; j < r; j++){
 	    if (&(str1+j) <= &x){
 	    	i += 1;
-		swap(str, i, j);
+		swap(str+i, j);
 	    }
 	}
 	swap(str+(i+1), str+r);
