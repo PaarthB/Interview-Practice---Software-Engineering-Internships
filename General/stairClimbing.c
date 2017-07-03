@@ -1,5 +1,5 @@
 // A C program to count number of ways to reach n't stair when
-// a person can climb 1, 2, ..m stairs at a time.
+// a person can climb 1, 2 at a time.
 #include<stdio.h>
  
 // A simple recursive program to find n'th fibonacci number
