@@ -21,13 +21,13 @@ int partition(char *str1, int p, int r){
 	int *x = str1+p;
 	int i = p-1;
 	
-	for (int j = p; j < r; j++){
+	for (int j = p; j <= r; j++){
 	    if (&(str1+j) <= &x){
 	    	i += 1;
 		swap(str+i, j);
 	    }
 	}
-	swap(str+(i+1), str+r);
+	swap(str+(i+1), str+p);
 	return (i+1);
 }
 
