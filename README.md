@@ -38,8 +38,8 @@ Coded explanations of some of the most popular Interview Questions for Software 
 - Find number which appears odd number of times
 - Binary search in a rotated array
 - Check if list is rotated version of another list
-- Pairs in a list equal to a number
-- Triplets in a list equal to a number
+- Pairs in a list that sum to a number
+- Triplets in a list that sum to a number
 
 ## Sorting:
 - Insertion Sort, Merge Sort, Quick Sort
