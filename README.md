@@ -19,13 +19,12 @@ Coded explanations of some of the most popular Interview Questions for Software 
 - Implement a queue using 2 stacks
 - Implement stack such that GetMin() and GetMax() are in O(1) without extra stack (HARD)
 - Sort a stack recursively and iteratively (Sorted Insert vs Two Stacks) (HARD)
-- 
 
 
 ## Most important Linked List Questions:
 - Reverse a Linked List iteratively and recursively
 - Check if a Linked List has cycles, and output the first node (HARD)
-- 
+- Check if a Linked List is a palindrome
 
 ## Most important Miscellaneous:
 - Print all permutations of a word/string (HARD)
@@ -34,7 +33,6 @@ Coded explanations of some of the most popular Interview Questions for Software 
 - All combinations of N balanced paranthesis (HARD)
 - Fibonacci iteratively and recursively
 - Number of ways to climb stairs using either 1 or 2 (n or m) steps at once
-- 
 
 ## Sorting:
 - Insertion Sort, Merge Sort, Quick Sort
