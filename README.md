@@ -34,11 +34,13 @@ Coded explanations of some of the most popular Interview Questions for Software 
 - Number of ways to climb stairs using either 1 or 2 (n or m) steps at once
 
 ## Most important arrays Questions:
+- Check if two strings have a common substring of length N ****
+- Find longest common substring of two strings and its length****
 - Intersection and Union of two lists
 - Find number which appears odd number of times
 - Binary search in a rotated array
 - Check if list is rotated version of another list
-- Pairs in a list that sum to a number
+- Pairs in a list that sum to a number (using sorting, hash map)
 - Triplets in a list that sum to a number
 
 ## Sorting:
