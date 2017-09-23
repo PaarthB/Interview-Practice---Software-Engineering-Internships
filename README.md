@@ -14,6 +14,7 @@ Coded explanations of some of the most popular Interview Questions for Software 
 - K numbers with most occurrences in an array (Create Heap) (HARD)
 - Check if Binary tree is valid sum tree (HARD)
 - Create BST from pre-order and in-order traversal strings (HARD).
+- Convert Max/Min Heap to BST. (HARD)
 
 ## Most important Stack Questions:
 - Implement a queue using 2 stacks
