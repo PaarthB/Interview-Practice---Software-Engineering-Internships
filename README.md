@@ -6,7 +6,7 @@ Coded explanations of some of the most popular Interview Questions for Software 
 - Convert BST to Max-Heap and Min Heap (using auxiliary space and in-place) (HARD) *O(N) Time, O(logN) call stack space*
 - Print a Tree level by level (BFS) and DFS
 - Print a Tree in In-order, Post-order, Pre-order fashion
-- Convert Sorted Linked List to BST (HARD)
+- Convert Sorted Array and Linked List to BST (HARD)
 - Check that a tree is a valid BST in O(n) time and O(logN) space (stack call size) (HARD)
 - Remove all leaf nodes from BST
 - Print leaf nodes from Pre-order traversal array of a BST
