@@ -36,7 +36,7 @@ Coded explanations of some of the most popular Interview Questions for Software 
 ## Most important arrays Questions:
 - Check if two strings have a common substring of length N **** (using 2D array and using Suffix Tree)
 - Find longest common substring of two strings and its length****
-- Intersection and Union of two lists
+- Intersection and Union of two sorted lists
 - Find number which appears odd number of times
 - Binary search in a rotated array
 - Check if list is rotated version of another list
@@ -44,5 +44,5 @@ Coded explanations of some of the most popular Interview Questions for Software 
 - Triplets in a list that sum to a number
 
 ## Sorting:
-- Insertion Sort, Merge Sort, Quick Sort
+- Insertion Sort, Merge Sort, Quick Sort (HARD), Heap Sort (HARD)
 - Stability of different sorts
