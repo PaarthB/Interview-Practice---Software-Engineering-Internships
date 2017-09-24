@@ -2,9 +2,9 @@
 Coded explanations of some of the most popular Interview Questions for Software Engineering Internships in C/C++/Java/Python.
 
 ## Most important Tree Questions:
-- Flatten a Binary Search Tree to sorted Linked List (HTML:
-<a href="http://www.geeksforgeeks.org/convert-bst-min-heap/">Auxiliary Space</a> and HTML:
-<a href="http://www.geeksforgeeks.org/in-place-convert-bst-into-a-min-heap/">Decscending</a>)
+- Flatten a Binary Search Tree to sorted Linked List (
+<a href="http://www.geeksforgeeks.org/convert-bst-min-heap/">Auxiliary Space</a> and
+<a href="http://www.geeksforgeeks.org/in-place-convert-bst-into-a-min-heap/">In-Place</a>)
 - Convert BST to Max-Heap and Min Heap (using auxiliary space and in-place) 
 - Print a Tree level by level (BFS) and DFS
 - Print a Tree in In-order, Post-order, Pre-order fashion
