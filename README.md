@@ -34,6 +34,7 @@ Coded explanations of some of the most popular Interview Questions for Software 
 - Most efficient implementation of Square Root and Exponentiation (HARD)
 - All combinations of N balanced paranthesis (HARD)
 - Fibonacci iteratively and recursively
+- Multiply and Add two very large numbers represented as strings
 - Number of ways to climb stairs using either 1 or 2 (n or m) steps at once
 
 ## Most important arrays Questions:
