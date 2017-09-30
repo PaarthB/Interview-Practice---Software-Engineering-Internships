@@ -1,4 +1,4 @@
-%%%%%%%%%%%%%%%%%%% ALL SUBSETS %%%%%%%%%%%%%%%%%%%%%%%
+/* %%%%%%%%%%%%%%%%%%% ALL SUBSETS %%%%%%%%%%%%%%%%%%%%%%% */
 
 ArrayList<ArrayList<Integer» getSubsets2(ArrayList<Integer> set) {
 	ArrayList<ArrayList<In-teger» allsubsets =
