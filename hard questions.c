@@ -569,3 +569,30 @@ def swap( A, x, y ):
   tmp = A[x]
   A[x] = A[y]
   A[y] = tmp
+	 
+	  
+/* %%%%%%%%%%%%%%%%%%% BASE 10 TO BASE 7 ATLASSIAN %%%%%%%%%%%%%%%%%%%%%%% */
+
+/* 
+Gives output of 7 as: a0   
+Gives output of 7792875 as atlassian   
+*/
+public static void main(String[] args) {
+
+        char [] b7={'0','a', 't', 'l', 's', 'i', 'n'};
+        Scanner in = new Scanner(System.in);
+        int t = in.nextInt();
+
+        int i=t;
+        StringBuffer sb = new StringBuffer();
+        while (i>0){
+            int m=i%7;
+            sb.append(b7[m]);
+            i=i/7;
+        }
+
+        System.out.println(sb.reverse());
+        in.close();
+
+    }
+
