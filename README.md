@@ -33,7 +33,7 @@ Coded explanations of some of the most popular Interview Questions for Software 
 - Print all substrings of a word/string *O(2^N)*
 - Most efficient implementation of Square Root and Exponentiation (HARD)
 - All combinations of N balanced paranthesis (HARD)
-- Divide a number without using */ and *****
+- Divide a number without using / (divide) and x (multiply)
 - Fibonacci iteratively and recursively
 - Multiply and Add two very large numbers represented as strings
 - Number of ways to climb stairs using either 1 or 2 (n or m) steps at once
@@ -42,7 +42,7 @@ Coded explanations of some of the most popular Interview Questions for Software 
 - Check if two strings have a common substring of length N **** (using 2D array and using Suffix Tree)
 - Find longest common substring of two strings and its length****
 - Intersection and Union of two sorted lists
-- Multiply 2 very large numbers represented as strings *O(M****N))*
+- Multiply 2 very large numbers represented as strings *O(M x N))*
 - Add 2 very large numbers represented as strings *O(M+N))*
 - Find number which appears odd number of times
 - Binary search in a rotated array
