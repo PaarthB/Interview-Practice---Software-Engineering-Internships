@@ -1,4 +1,4 @@
-/*For Facebook Software Engineering Intern Interview Preparation */
+/*For Facebook Software Engineering Internship Interview Preparation */
 /* %%%%%%%%%%%%%%%%%%% ALL SUBSETS %%%%%%%%%%%%%%%%%%%%%%% */
 
 ArrayList<ArrayList<Integer» getSubsets2(ArrayList<Integer> set) {
