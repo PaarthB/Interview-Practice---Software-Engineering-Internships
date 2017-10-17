@@ -49,6 +49,8 @@ Coded explanations of some of the most popular Interview Questions for Software 
 - Check if list is rotated version of another list
 - Pairs in a list that sum to a number (using sorting, hash map)
 - Triplets in a list that sum to a number
+- Remove all duplicates from a list (use hash map, new list or sorting)
+- Print all duplicates from a list of size n, which can contain elements from 0 to n-1. (O(N) time & O(1) space)
 
 ## Sorting:
 - Insertion Sort, Merge Sort, Quick Sort (HARD), Heap Sort (HARD)
