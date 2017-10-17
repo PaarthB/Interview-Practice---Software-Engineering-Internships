@@ -35,7 +35,7 @@ Coded explanations of some of the most popular Interview Questions for Software 
 - All combinations of N balanced paranthesis (HARD)
 - Divide a number without using / (divide) and x (multiply)
 - Fibonacci iteratively and recursively
-- Multiply and Add two very large numbers represented as strings
+- Find next larger and next smaller number formed from the same digits of number N.
 - Number of ways to climb stairs using either 1 or 2 (n or m) steps at once
 
 ## Most important arrays/strings Questions:
