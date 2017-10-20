@@ -30,6 +30,7 @@ Coded explanations of some of the most popular Interview Questions for Software 
 
 ## Most important Miscellaneous:
 - Print all permutations of a word/string (HARD) *O(N!))*
+- Find missing integer in list of 4 billion positive integers, we have 1GB memory. What if we have 10MB memory?
 - Print all substrings of a word/string *O(2^N)*
 - Most efficient implementation of Square Root and Exponentiation (HARD)
 - All combinations of N balanced paranthesis (HARD)
