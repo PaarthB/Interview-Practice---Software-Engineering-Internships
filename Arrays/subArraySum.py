@@ -1,5 +1,5 @@
 
-findSumInterval(array, sum):
+def findSumInterval(array, sum):
    n = len(array)
    first = 0
    last = 0
