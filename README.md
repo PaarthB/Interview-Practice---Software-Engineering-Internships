@@ -45,6 +45,7 @@ Coded explanations of some of the most popular Interview Questions for Software 
 - Multiply 2 very large numbers represented as strings *O(M x N))*
 - Add 2 very large numbers represented as strings *O(M+N))*
 - Find number which appears odd number of times
+- Find max sum interval in an array
 - Binary search in a rotated array
 - Check if list is rotated version of another list
 - Pairs in a list that sum to a number (using sorting, hash map)
