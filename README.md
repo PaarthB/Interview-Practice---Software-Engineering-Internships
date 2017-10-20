@@ -35,7 +35,7 @@ Coded explanations of some of the most popular Interview Questions for Software 
 - All combinations of N balanced paranthesis (HARD)
 - Divide a number without using / (divide) and x (multiply)
 - Fibonacci iteratively and recursively
-- Find next larger and next smaller number formed from the same digits of a given number N.
+- Find next <a href="https://sohagbuet.wordpress.com/2014/04/03/find-the-next-smaller-number-with-the-same-digits/">smaller</a> and next ><a href="https://sohagbuet.wordpress.com/2014/04/03/find-the-next-higher-number-with-the-same-digit/">larger</a> number formed from the same digits of a given number N.
 - Number of ways to climb stairs using either 1 or 2 (n or m) steps at once
 
 ## Most important arrays/strings Questions:
