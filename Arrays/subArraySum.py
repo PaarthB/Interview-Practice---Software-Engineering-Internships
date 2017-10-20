@@ -11,12 +11,16 @@ def findSumInterval(array, sum):
      return True
 
    for j in range(i+1, n):
+     if array[j] > value:
+       continue
+         
      sum_curr += array[j]
+   
      while sum_curr > value:
        sum_curr -= array[first]
        first += 1
 
-     elif sum_curr < value:
+     if sum_curr < value:
        continue
      
      elif sum_curr == value:
