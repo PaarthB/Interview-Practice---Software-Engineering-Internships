@@ -47,6 +47,7 @@ Coded explanations of some of the most popular Interview Questions for Software 
 - Add 2 very large numbers represented as strings *O(M+N))*
 - Find number which appears odd number of times
 - Find max sum interval in an array
+- Check if array contains a subarray which sums up to a given number
 - Find maximum sum in array such that no two elements are adjacent (<a href="http://www.geeksforgeeks.org/maximum-sum-such-that-no-two-elements-are-adjacent/">Explained</a>)
 - Binary search in a rotated array
 - Check if list is rotated version of another list
