@@ -2,15 +2,12 @@
 def findSumInterval(array, sum):
    n = len(array)
    first = 0
-   last = 0
-   i = 0
-   j = 0
    sum = array[0]
    sum_curr = sum
    if sum_curr == value:
      return True
 
-   for j in range(i+1, n):
+   for j in range(1, n):
      if array[j] > value:
        continue
          
