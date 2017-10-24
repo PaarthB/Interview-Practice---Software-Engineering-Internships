@@ -1,4 +1,6 @@
-
+'''
+Facebook final interview question for SWE Internship
+'''
 def findSumInterval(array, sum):
    n = len(array)
    first = 0
