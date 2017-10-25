@@ -1,11 +1,10 @@
 '''
 Facebook final interview question for SWE Internship
 '''
-def findSumInterval(array, sum):
+def findSumInterval(array, value):
    n = len(array)
    first = 0
-   sum = array[0]
-   sum_curr = sum
+   sum_curr = array[0]
    if sum_curr == value:
      return True
 
