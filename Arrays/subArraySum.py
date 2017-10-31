@@ -9,7 +9,6 @@ def findSumInterval(array, value):
        return True
 
    for j in range(1, n):
-      
        if array[j] > value:
            continue
    
