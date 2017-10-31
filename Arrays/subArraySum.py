@@ -14,7 +14,7 @@ def findSumInterval(array, value):
    
        sum_curr += array[j]
    
-       while sum_curr > value and first <= j:
+       while sum_curr > value:
            sum_curr -= array[first]
            first += 1
 
