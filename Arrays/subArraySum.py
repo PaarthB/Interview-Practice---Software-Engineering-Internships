@@ -10,6 +10,7 @@ def findSumInterval(array, value):
 
    for j in range(1, n):
        if array[j] > value:
+           first = j + 1
            continue
    
        sum_curr += array[j]
