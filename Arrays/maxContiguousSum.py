@@ -1,6 +1,6 @@
 __author__ = 'Paarth Bhasin'
 
-'''
+"""
 Function: find_max_sum_interval(a_list):
 
     Preconditions: a_list contains only numbers
@@ -63,10 +63,7 @@ Function: time_find_max_interval(a_list)
     Best Case Complexity: O(N)
     Worst Case Complexity: O(N^2)
     N: length of a_list
-
-
-
-'''
+"""
 
 import random
 import time
@@ -81,32 +78,22 @@ def find_max_sum_interval(a_list):
     summed = False
     i = 0
     # for i in range(0, n):
-    sum = a_list[i]
-    if sum > sum_max:
-        sum_max = sum
-    for j in range(i + 1, n):
+    sum = sum_max
+    
+    for j in range(1, n):
         sum += a_list[j]
-        summed = False
+        if a_list[j] > sum:
+            sum = a_list[j]
+            i = j
+
         if sum > sum_max:
             sum_max = sum
             # Meaning there are negative numbers prior to a_list[j] which should be neglected.
-            if a_list[j] > sum_max:
-                sum_max = a_list[j]
-                a = a_list[j]
-                max = j
-                min = j
-            else:
-                a = a_list[min:max + 1]
-                max = j
-                min = i
-            summed = True
-        elif summed == False and a_list[j] > sum_max:
-            a = a_list[j]
-            sum_max = a_list[j]
             max = j
-            min = j
-        elif summed == False:
-            a = a_list[0]
+            min = i
+
+        print(sum_max)
+
     a = a_list[min:max + 1]
 
     print('Maximum Sum:', sum_max)
@@ -138,6 +125,6 @@ def time_find_max_interval(a_list):
     return taken
 
 
-a = [6, 2, -10, 22]
+a = [1, 8, 20, 20, 113, 2, 2, 1, 101, 50, 12]
 
 find_max_sum_interval(a)
