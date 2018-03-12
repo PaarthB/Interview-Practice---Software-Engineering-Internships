@@ -4,11 +4,9 @@ Facebook final interview question for SWE Internship
 def findSumInterval(array, value):
    n = len(array)
    first = 0
-   sum_curr = array[0]
-   if sum_curr == value:
-       return True
+   sum_curr = 0
 
-   for j in range(1, n):
+   for j in range(0, n):
        if array[j] > value:
            first = j + 1
            sum_curr = 0
