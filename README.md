@@ -49,6 +49,7 @@ Coded explanations of some of the most popular Interview Questions for Software 
 - Find max sum interval in an array
 - Sum two binary numbers represented as strings and return the resulting binary number.
 - Check if array contains a subarray which sums up to a given number
+- Check and return the length of the longest consecutive subsequence
 - Find maximum sum in array such that no two elements are adjacent (<a href="http://www.geeksforgeeks.org/maximum-sum-such-that-no-two-elements-are-adjacent/">Explained</a>)
 - Binary search in a rotated array
 - Check if list is rotated version of another list
