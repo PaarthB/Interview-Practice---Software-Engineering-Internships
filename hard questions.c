@@ -1,9 +1,9 @@
 /*For Facebook Software Engineering Internship Interview Preparation */
 /* %%%%%%%%%%%%%%%%%%% ALL SUBSETS %%%%%%%%%%%%%%%%%%%%%%% */
 
-ArrayList<ArrayList<Integer» getSubsets2(ArrayList<Integer> set) {
-	ArrayList<ArrayList<In-teger» allsubsets =
-	new ArrayList<ArrayList<Integer»();
+ArrayList<ArrayList<Integer>> getSubsets2(ArrayList<Integer> set) {
+	ArrayList<ArrayList<Integer>> allsubsets =
+	new ArrayList<ArrayList<Integer>>();
 	int max = 1 « set.sizeQ; /* Compute 2^n */
 	for (int k = 0; k < max; k++) {
 		ArrayList<Integer> subset = convertIntToSet(k, set);
