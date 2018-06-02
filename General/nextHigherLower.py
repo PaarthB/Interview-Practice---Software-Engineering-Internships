@@ -1,4 +1,4 @@
-/* Next smaller number formed from the same digits */
+# Next smaller number formed from the same digits
 def findNext(number,n):
      # Start from the right most digit and find the first
      # digit that is smaller than the digit next to it
@@ -76,7 +76,7 @@ def findNext(number,n):
       
      print "Next number with set of digits is",x
 
-/* Next larger number formed from the same digits */		 
+# Next larger number formed from the same digits		 
 def findNext(number,n):
       
      # Start from the right most digit and find the first
