@@ -5,6 +5,7 @@ Coded explanations of some of the most popular Interview Questions for Software 
 - Flatten a Binary Search Tree to sorted Linked List and array
 - Deepest Node in Binary Tree
 - Lowest Common Ancestor of two nodes in a BST
+- Binary Tree to Doubly Linked List
 - Merge two BSTs into a new BST - ****(Convert two BSTs into separate sorted LLs. Then merge the two LLs into one LL. Then convert the single LL into a BST) O(N+M) Time Complexity, everything happens in-place****
 - Flatten Binary Tree to linked list and array
 - Convert BST to Max-Heap and Min Heap (<a href="http://www.geeksforgeeks.org/convert-bst-min-heap/">Auxiliary Space</a> and <a href="http://www.geeksforgeeks.org/in-place-convert-bst-into-a-min-heap/">In-Place</a>)
