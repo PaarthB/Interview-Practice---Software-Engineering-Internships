@@ -133,7 +133,6 @@ bool areIdentical(struct node * root1, struct node *root2)
             areIdentical(root1->right, root2->right) );
 }
  
- 
 /* This function returns true if S is a subtree of T, otherwise false */
 bool isSubtree(struct node *T, struct node *S)
 {
@@ -154,10 +153,7 @@ bool isSubtree(struct node *T, struct node *S)
            isSubtree(T->right, S);
 }
 
-
-
 %%%%%%%%%%%%%%%%%%% BST TO MIN-HEAP %%%%%%%%%%%%%%%%%%%%%%%
-
 
 void BSTToSortedLL(Node* root, Node** head_ref)
 {
@@ -493,6 +489,37 @@ struct TNode* sortedArrayToBST(int arr[], int start, int end)
     return root;
 }
 
+%%%%%%%%%%%%%%%%%%%% SORTED LINKED LIST TO BST (IN-PLACE) %%%%%%%%%%%%%%%%%%%%%%%
+
+/* The main function that constructs balanced BST and returns root of it.
+       head_ref -->  Pointer to pointer to head node of Doubly linked list
+       n  --> No. of nodes in the Doubly Linked List */
+struct Node* sortedListToBSTRecur(struct Node **head_ref, int n)
+{
+    /* Base Case */
+    if (n <= 0)
+        return NULL;
+ 
+    /* Recursively construct the left subtree */
+    struct Node *left = sortedListToBSTRecur(head_ref, n/2);
+ 
+    /* head_ref now refers to middle node, make middle node as root of BST*/
+    struct Node *root = *head_ref;
+ 
+    // Set pointer to left subtree
+    root->prev = left;
+ 
+    /* Change head pointer of Linked List for parent recursive calls */
+    *head_ref = (*head_ref)->next;
+ 
+    /* Recursively construct the right subtree and link it with root
+      The number of nodes in right subtree  is total nodes - nodes in
+      left subtree - 1 (for root) */
+    root->next = sortedListToBSTRecur(head_ref, n-n/2-1);
+ 
+    return root;
+}
+	
 %%%%%%%%%%%%%%%%%%%% SORTED LINKED LIST TO BST %%%%%%%%%%%%%%%%%%%%%%%
 
 struct TNode* sortedListToBST(struct LNode *head)
