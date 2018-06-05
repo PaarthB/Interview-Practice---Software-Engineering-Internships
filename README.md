@@ -31,6 +31,7 @@ Coded explanations of some of the most popular Interview Questions for Software 
 - Reverse a Linked List iteratively and recursively
 - Merge two sorted Linked Lists
 - Sort two Linked Lists via Merge Sort
+- Check if two Linked Lists intersect
 - Check if a Linked List has cycles, and output the first node (HARD)
 - Check if a Linked List is a palindrome
 
