@@ -30,6 +30,7 @@ Coded explanations of some of the most popular Interview Questions for Software 
 ## Most important Linked List Questions:
 - Reverse a Linked List iteratively and recursively
 - Merge two sorted Linked Lists
+- Sort two Linked Lists via Merge Sort
 - Check if a Linked List has cycles, and output the first node (HARD)
 - Check if a Linked List is a palindrome
 
