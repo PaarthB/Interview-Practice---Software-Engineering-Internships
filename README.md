@@ -32,6 +32,7 @@ Coded explanations of some of the most popular Interview Questions for Software 
 - Merge two sorted Linked Lists
 - Sort two Linked Lists via Merge Sort
 - Check if two Linked Lists intersect
+- Sum two linked lists into another Linked List (left to right and right to left).
 - Check if a Linked List has cycles, and output the first node (HARD)
 - Check if a Linked List is a palindrome
 
