@@ -11,6 +11,7 @@ Coded explanations of some of the most popular Interview Questions for Software 
 - Convert BST to Max-Heap and Min Heap (<a href="http://www.geeksforgeeks.org/convert-bst-min-heap/">Auxiliary Space</a> and <a href="http://www.geeksforgeeks.org/in-place-convert-bst-into-a-min-heap/">In-Place</a>)
 - Print a Tree level by level (BFS) and DFS
 - Print a Tree in In-order, Post-order, Pre-order fashion
+- Print successor of a given Node in a BST
 - Convert Sorted Array and Linked List to BST (HARD)
 - Check that a binary tree is a valid BST in O(n) time and O(1) space (stack call size) (HARD)
 - Remove all leaf nodes from BST
@@ -34,7 +35,7 @@ Coded explanations of some of the most popular Interview Questions for Software 
 - Check if two Linked Lists intersect
 - Sum two linked lists into another Linked List (left to right and right to left).
 - Check if a Linked List has cycles, and output the first node (HARD)
-- Check if a Linked List is a palindrome
+- Check if a Linked List is a palindrome (HARD)
 
 ## Most important Miscellaneous:
 - Print all permutations of a word/string (HARD) *O(N!))*
