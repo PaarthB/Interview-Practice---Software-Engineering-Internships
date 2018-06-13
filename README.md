@@ -54,6 +54,7 @@ Coded explanations of some of the most popular Interview Questions for Software 
 - Find longest common substring of two strings and its length****
 - Intersection and Union of two sorted lists
 - Find i, j, k in array, such that A\[i\] < A\[j\] < A\[k\] and i < j < k. (Sorted subsequence of size 3)
+- Find maximum j - i in array such that A\[j\] > A\[i\] 
 - Multiply 2 very large numbers represented as strings *O(M x N))*
 - Add 2 very large numbers represented as strings *O(M+N))*
 - Find number which appears odd number of times
