@@ -52,6 +52,7 @@ Coded explanations of some of the most popular Interview Questions for Software 
 ## Most important arrays/strings Questions:
 - Check if two strings have a common substring of length N **** (using 2D array and using Suffix Tree)
 - Find longest common substring of two strings and its length****
+- Length of longest substring with no repeated characters
 - Intersection and Union of two sorted lists
 - Find i, j, k in array, such that A\[i\] < A\[j\] < A\[k\] and i < j < k. (Sorted subsequence of size 3)
 - Find maximum j - i in array such that A\[j\] > A\[i\] 
