@@ -61,7 +61,8 @@ Coded explanations of some of the most popular Interview Questions for Software 
 - Multiply 2 very large numbers represented as strings *O(M x N))*
 - Add 2 very large numbers represented as strings *O(M+N))*
 - Find number which appears odd number of times
-- Find max sum interval in an array
+- Find max sum sub-array in an array (Kadane Algorithm)
+- Find min sum sub-array in an array (Kadane Algorithm)
 - Find longest increasing sub-array in a list.(Length and the sliced array)
 - Sum two binary numbers represented as strings and return the resulting binary number.
 - Check if array contains a subarray which sums up to a given number
