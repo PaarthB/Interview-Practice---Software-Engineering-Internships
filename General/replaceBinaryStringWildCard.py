@@ -9,7 +9,7 @@ def returnPermutations(inputString):
     position = []
     for i in inputString:
         if inputString[i] == "?":
-            position.append(i)
+            position.append(index)
             count += 1
         index += 1
     end = 1 << count
