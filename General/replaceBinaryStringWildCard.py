@@ -8,7 +8,7 @@ def returnPermutations(inputString):
     index = 0
     position = []
     for i in inputString:
-        if inputString[i] == "?":
+        if i == "?":
             position.append(index)
             count += 1
         index += 1
