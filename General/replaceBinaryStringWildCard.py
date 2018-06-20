@@ -1,7 +1,7 @@
-"
+'''
 Returns all the different combinations from a binary string by replacing wildcard characters '?'
 For example, for input 10?011, it returns ['101011', '100011']
-"
+'''
 def returnPermutations(inputString):
     count = 0
     permutations = []
