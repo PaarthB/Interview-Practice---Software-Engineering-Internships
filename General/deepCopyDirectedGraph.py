@@ -50,4 +50,5 @@ def DFS(cloneVertex, vertex, vertices):
         newEdgeClone.data = vertices[i].data
         DFS(newEdgeClone, vertices[i], vertices[i].vertices)
         cloneVertex.vertices.append(visited.get(vertices[i]))
+        newEdgeClone.vertices.append(cloneVertex)
     points.append(cloneVertex)
