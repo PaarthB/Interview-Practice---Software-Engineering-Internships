@@ -36,9 +36,10 @@ def deepcopy(graph):
     cloneGraph.points = points
     return cloneGraph
 
-
+# HashMap In JAVA
 HashMap<Vertex, Vertex> visited = new HashMap<>();
-
+# HashMap in PYTHON
+visited = {}
 def DFS(cloneVertex, vertex, vertices):
     globals points
     if (visited.get(vertex)):
