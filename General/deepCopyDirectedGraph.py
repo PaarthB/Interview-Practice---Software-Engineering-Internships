@@ -33,6 +33,7 @@ def deepcopy(graph):
         vertex = graph.points[i]
         cloneVertex = Vertex(vertex.data)
         DFS(cloneVertex, vertex, vertex.vertices)
+        point.append(cloneVertex)
     cloneGraph.points = points
     return cloneGraph
 
